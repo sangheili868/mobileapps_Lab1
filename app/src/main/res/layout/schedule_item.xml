@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:srcCompat="@mipmap/square"
+        android:id="@+id/teamLogo"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:id="@+id/scheduleText"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:text="Game Date"
+        android:ems="10"
+        android:id="@+id/dateText"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"/>
+</LinearLayout>
